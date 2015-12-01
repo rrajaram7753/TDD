@@ -5,6 +5,7 @@
 class Order:
 
     def __init__(self, inputstring):
+
         if not inputstring:
             raise ValueError("Input string is empty")
 
@@ -17,31 +18,26 @@ class Order:
         self._lineNo = int(lineNo)
 
         prodCode = inputstring[4:14].strip()
-        """
-        if not prodCode.isalpha():
+        if not prodCode.isalnum():
             raise TypeError("Invalid Input - Product Code is not alphanumeric")
-        """
         self._code = prodCode
 
         category = inputstring[14:24].strip()
-        """
-        if not category.isalpha():
+        if not category.isalnum():
             raise TypeError("Invalid Input - Category is not alphanumeric")
-        """
         self._category = category
 
         quantity = inputstring[24:28].strip()
         if not quantity.isdigit():
             raise TypeError("Invalid Input - Quantity is not numeric")
-        self._quantity = quantity
+        self._quantity = int(quantity)
 
         price = inputstring[29:39].strip()
         if not price.isdigit():
             raise TypeError("Invalid Input - Price is not numeric")
 
-        price = inputstring[29:37].strip() + "." + inputstring[37:39].strip()
-        self._price = float(price)
-        
+        self._price = float(price)/100
+
     def create(self):
         return self
 
