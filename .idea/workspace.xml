@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/order.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -34,8 +34,8 @@
       <file leaf-file-name="test_order.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_order.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2869565">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.4304348">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
               <folding>
                 <element signature="e#28#43#0" expanded="true" />
               </folding>
@@ -115,73 +115,7 @@
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest TestOrder.test_checkProductPriceIsSet">
-    <configuration default="false" name="Unittest TestOrder.test_checkCategoryIsSet" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TDD" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_order.py" />
-      <option name="CLASS_NAME" value="TestOrder" />
-      <option name="METHOD_NAME" value="test_checkCategoryIsSet" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestOrder.test_validateQuantityDataType" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TDD" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_order.py" />
-      <option name="CLASS_NAME" value="TestOrder" />
-      <option name="METHOD_NAME" value="test_validateQuantityDataType" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestOrder.test_checkProductQuantityIsSet" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TDD" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_order.py" />
-      <option name="CLASS_NAME" value="TestOrder" />
-      <option name="METHOD_NAME" value="test_checkProductQuantityIsSet" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in TestOrder">
     <configuration default="false" name="Unittest TestOrder.test_validatePriceDataType" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,6 +153,72 @@
       <option name="METHOD_NAME" value="test_checkProductPriceIsSet" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestOrder.test_checkForEmptyString" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TDD" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_order.py" />
+      <option name="CLASS_NAME" value="TestOrder" />
+      <option name="METHOD_NAME" value="test_checkForEmptyString" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestOrder.test_checkForInvalidInput" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TDD" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_order.py" />
+      <option name="CLASS_NAME" value="TestOrder" />
+      <option name="METHOD_NAME" value="test_checkForInvalidInput" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in TestOrder" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TDD" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_order.py" />
+      <option name="CLASS_NAME" value="TestOrder" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -372,19 +372,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkLineNoIsSet" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkCategoryIsSet" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_validateQuantityDataType" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkProductQuantityIsSet" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_validatePriceDataType" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkProductPriceIsSet" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_validatePriceDataType" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkProductPriceIsSet" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkForEmptyString" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkForInvalidInput" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in TestOrder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkProductPriceIsSet" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_validatePriceDataType" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_validateQuantityDataType" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkProductQuantityIsSet" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkCategoryIsSet" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestOrder" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkForInvalidInput" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkForEmptyString" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_checkProductPriceIsSet" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestOrder.test_validatePriceDataType" />
       </list>
     </recent_temporary>
   </component>
@@ -402,6 +402,12 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Unittest_TestOrder_test_checkForEmptyString - 2015.12.01 at 00h 05m 14s.xml">
+      <configuration name="Unittest TestOrder.test_checkForEmptyString" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_TestOrder_test_checkForInvalidInput - 2015.12.01 at 00h 05m 17s.xml">
+      <configuration name="Unittest TestOrder.test_checkForInvalidInput" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittest_TestOrder_test_checkProductPriceIsSet - 2015.11.30 at 23h 57m 35s.xml">
       <configuration name="Unittest TestOrder.test_checkProductPriceIsSet" configurationId="tests" />
     </history-entry>
@@ -410,12 +416,6 @@
     </history-entry>
     <history-entry file="Unittest_TestOrder_test_checkProductPriceIsSet - 2015.12.01 at 00h 00m 40s.xml">
       <configuration name="Unittest TestOrder.test_checkProductPriceIsSet" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestOrder_test_checkProductQuantityIsSet - 2015.11.30 at 23h 54m 06s.xml">
-      <configuration name="Unittest TestOrder.test_checkProductQuantityIsSet" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestOrder_test_checkProductQuantityIsSet - 2015.11.30 at 23h 54m 44s.xml">
-      <configuration name="Unittest TestOrder.test_checkProductQuantityIsSet" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_TestOrder_test_validatePriceDataType - 2015.11.30 at 23h 56m 48s.xml">
       <configuration name="Unittest TestOrder.test_validatePriceDataType" configurationId="tests" />
@@ -426,11 +426,11 @@
     <history-entry file="Unittest_TestOrder_test_validatePriceDataType - 2015.12.01 at 00h 00m 38s.xml">
       <configuration name="Unittest TestOrder.test_validatePriceDataType" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestOrder_test_validateQuantityDataType - 2015.11.30 at 23h 54m 41s.xml">
-      <configuration name="Unittest TestOrder.test_validateQuantityDataType" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittest_TestOrder_test_validateQuantityDataType - 2015.11.30 at 23h 55m 29s.xml">
       <configuration name="Unittest TestOrder.test_validateQuantityDataType" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestOrder - 2015.12.01 at 00h 07m 43s.xml">
+      <configuration name="Unittests in TestOrder" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -501,15 +501,15 @@
     <entry file="file://$PROJECT_DIR$/order.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_order.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2869565">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.4304348">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding>
             <element signature="e#28#43#0" expanded="true" />
           </folding>
