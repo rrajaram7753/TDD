@@ -45,7 +45,7 @@ class TestOrder(unittest.TestCase):
         self.assertRaises(TypeError, Order, " 100 015678923 SPORTING99856    10_A39 ")
 
     def test_checkProductPriceIsSet(self):
-        o = Order(" 100 P156923    SPORTING856     101239 ")
+        o = Order(" 100 015678923 SPORTING99856    101239 ")
         self.assertEqual(o.create()._price, 1012.39)
 
 if __name__ == "__main__":
